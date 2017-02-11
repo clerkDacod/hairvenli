@@ -25,7 +25,7 @@
 		<ul class="nav navbar-nav navbar-right">
 	 		
 	 		
-	 		<li id="stylistsNearby" class="navbar-form"><span class="glyphicon glyphicon-map-marker"></span> Stylists nearby</li>
+	 		<li id="stylistsNearby"><span class="glyphicon glyphicon-map-marker"></span> Stylists nearby</li>
 	 		<li> <a href="#">Notifications</a></li>
 	 		<li > <a  href="#">Profile</a></li>
 	 	</ul>

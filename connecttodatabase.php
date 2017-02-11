@@ -11,13 +11,9 @@
  if (mysqli_connect_errno())
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }else{
-
-  	echo "hurray, My friend <br />";
   }
-
-  //mysql_query("SELECT * FROM Stylists WHERE name='$name' ") or die(mysql_error());
-  $q = $con->query("SELECT * FROM Stylists WHERE name='$name' ");
+ 
+  /*$q = $con->query("SELECT * FROM Stylists WHERE name='$name' ");
   $num = mysqli_num_rows($q);
   
   	echo $num;
@@ -29,7 +25,7 @@
   		echo $stylist->id." ".$stylist->name." ".$stylist->latitude." ".$stylist->longitude;  
   	}
 
-  }
+  }*/
 
 
  ?>

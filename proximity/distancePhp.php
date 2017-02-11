@@ -17,7 +17,8 @@ function vincentyGreatCircleDistance($latitudeFrom, $longitudeFrom, $latitudeTo,
   $b = sin($latFrom) * sin($latTo) + cos($latFrom) * cos($latTo) * cos($lonDelta);
 
   $angle = atan2(sqrt($a), $b);
-  echo ($angle * $earthRadius)/1000;
+  $distanceInKm = ($angle * $earthRadius)/1000;
+  return $distanceInKm;
 }
 
 vincentyGreatCircleDistance(-33.9433769,18.4682218,-33.9657883,18.4810200);
