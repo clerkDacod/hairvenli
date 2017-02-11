@@ -1,0 +1,18 @@
+.sign{
+
+	padding-left: 12px;
+}
+
+.navbar-brand{
+	font-size: 15pt;
+}
+
+.glyphicon-map-marker{
+	color: #fd1a23;
+}
+
+#stylistsNearby{
+	padding-top: 8px;
+	cursor: pointer;
+}
+
