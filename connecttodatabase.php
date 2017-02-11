@@ -12,6 +12,8 @@
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
+
+  /* The following part has been moved to the stylists nearby.php on account of how it was built with the intent of eventually meging it with stylistsNearby.php*/
  
   /*$q = $con->query("SELECT * FROM Stylists WHERE name='$name' ");
   $num = mysqli_num_rows($q);

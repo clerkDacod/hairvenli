@@ -1,6 +1,6 @@
 <?php
 
-
+/*This function was moved on to stylistNearby for the location of stylits nearby*/
 
 function vincentyGreatCircleDistance($latitudeFrom, $longitudeFrom, $latitudeTo, $longitudeTo)
 {
