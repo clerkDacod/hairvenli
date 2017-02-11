@@ -7,4 +7,6 @@
 	<?php require_once("head.php"); ?>
 </head>
 	<?php require_once("header.php"); ?>
+
+	<div id="demo" class="container">demo<div>
 </html>
