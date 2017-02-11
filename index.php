@@ -8,5 +8,8 @@
 </head>
 	<?php require_once("header.php"); ?>
 
-	<div id="demo" class="container">demo<div>
+	<div class="container">    
+		<div id="results">I don't know what's happening.</div>
+	</div>
+
 </html>
